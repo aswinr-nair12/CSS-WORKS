@@ -1,0 +1,10 @@
+body{
+    background-color: palegreen;
+    background-image: url("https://www.mashupstack.com/assets/image/Mashupstack-logo-inverse-black.png?version=2.14");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    h1 {background-color: blue;}
+    .Desc {color: tomato;}
+
+}
