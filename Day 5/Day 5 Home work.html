@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Blog Post</title>
+  <style>
+
+    
+    .blog-post h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    
+    .author {
+      text-align: center;
+      color: #666;
+      font-style: italic;
+    }
+
+    .blog-post p::first-line {
+      font-weight: bold; 
+    }
+
+    .blog-post p::first-letter {
+      font-size: 28px;
+      color: darkred; 
+    }
+
+    
+    blockquote {
+      font-style: italic;
+      background-color: #eee;
+      border-left: 5px solid #666;
+      margin: 15px 0;
+    }
+
+    blockquote::before {
+      content: "“";
+      font-size: 24px;
+      color: #666;
+      margin-right: 5px;
+    }
+
+    a:link {
+      color: blue;
+    }
+
+    a:visited {
+      color: purple;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .subheadings {
+      display: flex;
+      gap: 15px;
+    }
+
+    h4 + h4 {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="blog-post">
+    <h2>My First Blog Post</h2>
+    <div class="author">by John Doe</div>
+
+    <p>
+      Welcome to my blog! This is where I share my thoughts and experiences about learning web development. 
+      I find HTML and CSS very interesting because they help me design beautiful webpages.
+    </p>
+
+    <blockquote>
+      Learning never exhausts the mind.
+    </blockquote>
+
+    <p>
+      If you want to learn more, check out 
+      <a href="#">this tutorial</a> for helpful resources and tips on coding.
+    </p>
+
+    <div class="subheadings">
+      <h4>Web Design</h4>
+      <h4>CSS </h4>
+    </div>
+  </div>
+</body>
+</html>
